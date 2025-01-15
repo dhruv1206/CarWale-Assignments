@@ -1,0 +1,14 @@
+.home-container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.content-and-filters-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+}
+
+.home-title {
+  text-align: start;
+}

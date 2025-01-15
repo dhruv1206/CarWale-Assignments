@@ -1,0 +1,17 @@
+.sorting-container {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  padding: 5px;
+  border: 1px;
+  border-radius: 6px;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.sorting-dropdown {
+  height: 100%;
+  background-color: white;
+  border-color: grey;
+}

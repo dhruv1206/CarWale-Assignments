@@ -1,0 +1,13 @@
+.slider-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  margin-top: 5px;
+  p {
+    margin: 0;
+    font-size: small;
+    color: gray;
+  }
+}
