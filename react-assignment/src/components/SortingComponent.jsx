@@ -18,6 +18,7 @@ export default function SortingComponent() {
           dispatch(setPriceSort(event.target.value));
         }}
         label="Choose an Option"
+        data-testid="sorting-dropdown"
       >
         <MenuItem value="asc">Price (Low to High)</MenuItem>
         <MenuItem value="desc">Price (High to Low)</MenuItem>

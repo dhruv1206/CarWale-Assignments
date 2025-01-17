@@ -10,7 +10,7 @@ export default function ProductsGrid() {
       {products
         .filter((product) => product.imageUrl)
         .map((product) => (
-          <ProductCard product={product} />
+          <ProductCard key={product.id} product={product} />
         ))}
     </div>
   );
